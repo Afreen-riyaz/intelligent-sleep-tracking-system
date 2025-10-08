@@ -1,0 +1,10 @@
+flask
+flask-cors
+gunicorn
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+joblib
+PyMuPDF==1.23.6

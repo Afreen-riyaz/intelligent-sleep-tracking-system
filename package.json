@@ -1,0 +1,10 @@
+{
+  "name": "your-project",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "concurrently \"cd frontend-dashboard && npm run dev\" \"cd ML_dependability && set PYTHONIOENCODING=utf-8 && flask run\""
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
