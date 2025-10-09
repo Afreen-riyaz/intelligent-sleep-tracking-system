@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: intelligent-sleep-tracking-backend
+    env: python
+    buildCommand: |
+      cd Backend/ML_dependability
+      apt-get update && apt-get install -y build-essential libjpeg-dev zlib1g-dev libopenjp2-7-dev
+      pip install -r requirements.txt
+    startCommand: gunicorn app:app
